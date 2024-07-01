@@ -18,7 +18,18 @@ This project aims to predict customer churn for a telecommunications company. Th
 3. **Prediction**: Making predictions on new data and evaluating model performance.
 
 ## Usage
+### Download the Data
+To run the notebooks, you need to download the dataset:
+
+1. **Download the data**:
+   - https://drive.google.com/drive/folders/1qfo7-dIfIbDM8vFXxJqWy6LD9PwHdoYz?usp=drive_link
+
+2. **Place the downloaded data in the `data/raw/` directory**.
+
+### Run the Project
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/customer-churn-prediction.git
+   git clone https://github.com/delfimas/Customer-Churn-Prediction.git
    cd customer-churn-prediction
+
+   
