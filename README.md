@@ -11,11 +11,19 @@ This project aims to predict customer churn for a telecommunications company. Th
 - `README.md`: Project overview and instructions.
 - `requirements.txt`: Required Python packages.
 - `LICENSE`: Project license.
-
 ## Notebooks
-1. **Preprocessing**: Data cleaning, feature engineering, and data transformation.
-2. **Modeling**: Model training, evaluation, and hyperparameter tuning.
-3. **Prediction**: Making predictions on new data and evaluating model performance.
+- **Preprocessing**: Data cleaning, feature engineering, and data transformation. The notebook includes:
+  - Exploratory Data Analysis (EDA)
+  - Data cleaning: Handling missing values, outliers, and duplicates.
+  - Feature engineering: Creating new features and transforming existing ones.
+  - Encoding categorical variables using Ordinal Encoder and One-Hot Encoding.
+  - Removing features with high correlation and low variance.
+- **Modeling**: Model training, evaluation, and hyperparameter tuning.
+- **Prediction**: Making predictions on new data and evaluating model performance. The notebook replicates preprocessing steps from the training data, including:
+  - Removing the same variables.
+  - Imputing missing values using the same approach.
+  - Applying the same encoding for categorical variables.
+  - Ensuring consistency with the variables used to train the model.
 
 ## Usage
 ### Download the Data
